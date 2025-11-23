@@ -20,21 +20,21 @@ A **Java-based desktop application** for managing electricity billing, customer 
   Uses Java classes for storing and managing data.  
 
 ## Project Structure
-
 Electricity-Billing-System-Java-Project/
 ├── src/ # Source code
-│ └── electricity/billing/system/
-│ ├── Login.java
-│ ├── Signup.java
-│ ├── Splash.java
-│ ├── calculate_bill.java
-│ ├── customer_details.java
-│ └── ... (other Java classes)
+│   └── electricity/billing/system/
+│       ├── Login.java
+│       ├── Signup.java
+│       ├── Splash.java
+│       ├── calculate_bill.java
+│       ├── customer_details.java
+│       └── ... (other Java classes)
 ├── out/ # Compiled .class files
 ├── icon/ # GUI resources (images/icons)
 ├── rs2xml.jar # Required external library
 ├── .idea/ # IntelliJ IDEA project files
 └── .gitignore # Git ignore file
+
 ## Requirements
 
 - **Java Development Kit (JDK) 8 or higher**  
