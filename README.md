@@ -35,7 +35,6 @@ Electricity-Billing-System-Java-Project/
 ├── rs2xml.jar # Required external library
 ├── .idea/ # IntelliJ IDEA project files
 └── .gitignore # Git ignore file
-
 ## Requirements
 
 - **Java Development Kit (JDK) 8 or higher**  
