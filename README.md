@@ -1,40 +1,84 @@
-📘 Electricity Billing System – Java Project
+⚡ Electricity Billing System – Java Desktop Application
 
-A Java-based desktop application designed to manage electricity billing, customer details, and payment records. The system provides a user-friendly interface built using Java Swing and includes essential concepts like JDBC database connectivity and multithreading to ensure smooth performance.
+A Java-based desktop application designed to manage electricity billing operations including customer information, bill generation, and payment tracking. It features a user-friendly GUI, JDBC database connectivity, and efficient data handling.
 
-🚀 Features
-Customer Management
+📚 Overview
 
-Add and update customer details
+The Electricity Billing System provides an intuitive interface for managing:
 
-View complete customer profiles
+Customer records
 
-Billing Management
+Electricity bill generation
 
-Generate electricity bills
+Payments and dues
 
-Calculate charges based on units consumed
+User authentication
 
-View previously generated bills
+GUI-based data visualization
 
-Payment Tracking
+The system is built using Java Swing, OOP concepts, JDBC, and multithreading to ensure a responsive and efficient user experience.
 
-Record customer payments
+🚀 Key Features
+👥 Customer Management
 
-Track pending and completed transactions
+Add, update, and view customer details
 
-User-Friendly GUI
+Organized storage in a relational database
 
-Built using Java Swing
+💡 Billing System
 
-Easy navigation and simple design
+Automatically calculate bills based on units
 
-Data Management
+View previous billing records
 
-Uses JDBC connectivity for database operations
+Manage meter-based billing information
 
-Stores customer, billing, and payment records in a relational database
+💳 Payment Tracking
+
+Record payments
+
+Maintain monthly deposit records
+
+Track dues and pending bills
+
+🖥️ User-Friendly GUI
+
+Built using Java Swing components
+
+Smooth interface for all operations
+
+Clean and intuitive navigation
+
+💽 JDBC Connectivity
+
+The application uses JDBC (Java Database Connectivity) to communicate with a relational database.
+It stores:
+
+Customer details
+
+Billing data
+
+Payment records
+
+External libraries used:
+
+mysql-connector.jar → JDBC driver
+
+rs2xml.jar → Converts JDBC ResultSet to JTable
+
+🧵 Multithreading
+
+To improve performance and user experience, the system uses multithreading for tasks like:
+
+Displaying the splash screen
+
+Loading data in the background
+
+Avoiding UI freezing during operations
+
+This ensures that the application remains smooth and responsive.
 ```
+📂 Project Structure
 Electricity-Billing-System-Java-Project/
 ├── src/
 │   └── electricity/billing/system/
@@ -44,80 +88,56 @@ Electricity-Billing-System-Java-Project/
 │       ├── calculate_bill.java
 │       ├── customer_details.java
 │       └── ... (other Java classes)
-├── out/               # Compiled .class files
-├── icon/              # GUI images & icons
-├── rs2xml.jar         # JTable ResultSet conversion library
-├── mysql-connector.jar# JDBC driver (add manually)
+├── out/                    # Compiled .class files
+├── icon/                   # GUI images & icons
+├── rs2xml.jar              # JTable ResultSet conversion library
+├── mysql-connector.jar     # JDBC driver (add manually)
 ├── README.md
 └── .gitignore
-
 ```
-💽 JDBC Connectivity
-
-The project uses JDBC (Java Database Connectivity) to interact with a MySQL database.
-
-Included in the project:
-
-A dedicated JDBC connection setup
-
-Database tables for customers, bills, and payments
-
-Integration of an external JDBC driver
-
-Use of rs2xml.jar for displaying database results in JTable
-
-Purpose of JDBC in this project:
-
-Connect the application to a database
-
-Insert, update, and fetch customer and billing data
-
-Handle secure and structured data storage
-
-🧵 Multithreading
-
-The project incorporates multithreading to enhance performance and improve user experience.
-
-Multithreading is used for:
-
-Displaying the splash screen smoothly
-
-Loading data in the background without freezing the GUI
-
-Running tasks like bill calculations simultaneously
-
-Keeping the main UI responsive
-
-🛠 Requirements
+🛠️ Requirements
 
 JDK 8 or higher
 
-MySQL or any JDBC-compatible database
+MySQL (or any JDBC-supported DB)
 
-Java IDE (IntelliJ IDEA, Eclipse, NetBeans, etc.)
+Java IDE (IntelliJ IDEA, Eclipse, NetBeans, VS Code)
 
 External libraries:
 
-rs2xml.jar
-
 mysql-connector.jar
+
+rs2xml.jar
 
 ▶️ How to Run
 
 Clone the repository
 
-Open the project in your Java IDE
+git clone https://github.com/Tanishqyadav2005/The-Electricity-Billing-System
 
-Add the required external libraries
 
-Configure your database connection
+Open project in your Java IDE
 
-Run the application starting from the splash or login screen
+Add required external libraries
 
-🤝 Contribution
+mysql-connector.jar
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
+rs2xml.jar
+
+Configure your database settings inside the database connection class.
+
+Run the application
+Start from:
+
+Splash.java or
+
+Login.java
+
+🤝 Contributions
+
+Contributions, issues, and feature requests are welcome!
+Feel free to open a pull request.
 
 📜 License
 
-This project is open-source and free to use.
+This project is open-source and free to use for learning and development.
