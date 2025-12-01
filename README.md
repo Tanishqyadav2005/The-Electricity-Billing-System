@@ -34,7 +34,7 @@ Data Management
 Uses JDBC connectivity for database operations
 
 Stores customer, billing, and payment records in a relational database
-'''
+```
 Electricity-Billing-System-Java-Project/
 ├── src/
 │   └── electricity/billing/system/
@@ -51,7 +51,7 @@ Electricity-Billing-System-Java-Project/
 ├── README.md
 └── .gitignore
 
-'''
+```
 💽 JDBC Connectivity
 
 The project uses JDBC (Java Database Connectivity) to interact with a MySQL database.
