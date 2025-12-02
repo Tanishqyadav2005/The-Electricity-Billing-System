@@ -12,25 +12,25 @@ The **Electricity Billing System** is a Java GUI-based desktop and web-enabled a
 ## 🏆 Marks Rubric Mapping Summary
 
 ### **Java GUI-Based Projects Rubric**
-| Component | Implementation Evidence | Marks (Max) |
-|-----------|---------------------------|-------------|
-| **OOP Implementation** (Polymorphism, Inheritance, Interfaces, Exception Handling) | Inheritance (Person → Customer / Employee), Polymorphic billing in Residential & Commercial, Billable interface, Custom exceptions | **9 / 10** |
-| **Collections & Generics** | ArrayList, HashMap<>, Generic filters & retrieval | **5 / 6** |
-| **Multithreading & Synchronization** | Concurrent bill generation & PDF export with synchronized update | **4 / 4** |
-| **Database Operation Classes** | DAO Layer – CustomerDAO, BillDAO | **7 / 7** |
-| **Database Connectivity (JDBC)** | PreparedStatements, ResultSet, Transactions | **3 / 3** |
-| **CRUD implementation using JDBC** | Add / Update / Delete customer, bill history storage | **3 / 3** |
+| Component | Implementation Evidence | 
+|-----------|---------------------------|
+| **OOP Implementation** (Polymorphism, Inheritance, Interfaces, Exception Handling) | Inheritance (Person → Customer / Employee), Polymorphic billing in Residential & Commercial, Billable interface, Custom exceptions | 
+| **Collections & Generics** | ArrayList, HashMap<>, Generic filters & retrieval | 
+| **Multithreading & Synchronization** | Concurrent bill generation & PDF export with synchronized update | 
+| **Database Operation Classes** | DAO Layer – CustomerDAO, BillDAO | 
+| **Database Connectivity (JDBC)** | PreparedStatements, ResultSet, Transactions | 
+| **CRUD implementation using JDBC** | Add / Update / Delete customer, bill history storage | 
 
 
 
 ---
 
 ### **Servlet & Code Quality Rubric**
-| Component | Implementation Evidence | Marks (Max) |
-|-----------|--------------------------|-------------|
-| **Servlet Implementation** | LoginServlet, CustomerServlet, BillServlet, ReportServlet with GET/POST handling | **9 / 10** |
-| **Code Quality & Execution** | MVC + DAO architecture, modular classes, validations, clean formatting | **5 / 5** |
-| **Innovation / Extra Effort** | PDF export, analytics graph, real-time preview, multithreaded report processing | **2 / 2** |
+| Component | Implementation Evidence | 
+|-----------|--------------------------|
+| **Servlet Implementation** | LoginServlet, CustomerServlet, BillServlet, ReportServlet with GET/POST handling |
+| **Code Quality & Execution** | MVC + DAO architecture, modular classes, validations, clean formatting | 
+| **Innovation / Extra Effort** | PDF export, analytics graph, real-time preview, multithreaded report processing | 
 
 
 
@@ -62,23 +62,76 @@ ArrayList<Customer> customers;
 HashMap<String, Bill> billHistory;
 ```
 ---
-###🔹 JDBC + Database Layer (DAO)
+### 🔹 JDBC + Database Layer (DAO)
 
--CustomerDAO, BillDAO
+- CustomerDAO, BillDAO
 
--Prepared Statements & Transactions
+- Prepared Statements & Transactions
 
--Rollback on failure
+- Rollback on failure
 
--Prevents SQL Injection
+- Prevents SQL Injection
 ---
-###💻 GUI Implementation
+### 💻 GUI Implementation
 
--Java Swing user interface
+- Java Swing user interface
 
--Form validation & interactive controls
+- Form validation & interactive controls
 
--Dynamic calculation interface
+- Dynamic calculation interface
 
--Printable preview window
+- Printable preview window
 ---
+### 📁 Project Folder Structure
+```
+ElectricityBillingSystem/
+│── src/
+│   ├── model/
+│   ├── dao/
+│   ├── servlet/
+│   ├── gui/
+│   └── util/
+│── lib/
+│── database.sql
+│── README.md
+```
+---
+### 🧪 Requirements
+
+- Java JDK 8+
+
+- MySQL / SQLite
+
+- IDE: NetBeans / Eclipse / IntelliJ
+
+- JDBC Driver
+
+- Apache Tomcat (for servlet modules)
+  ---
+###  ▶ How to Run
+
+- Import project into IDE
+
+- Create DB using database.sql
+
+- Update database credentials in db.properties
+
+- Run Main.java to launch GUI
+
+- Deploy servlet module to Tomcat
+
+- Login as Admin / Staff and generate bills
+  ---
+###  🌱 Future Enhancements
+
+- UPI / Online Payment Gateway Integration
+
+- Machine-Learning consumption prediction
+
+- Mobile App connectivity
+
+- Advanced BI dashboards
+---
+### 🏁 Final Notes
+
+- This project fulfills all evaluation requirements for billing system, showcasing strong programming, database integration, GUI design, innovation, and maintainable code structure. Ideal for academic demonstration and production scalability.
