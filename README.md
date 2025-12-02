@@ -11,7 +11,7 @@ The **Electricity Billing System** is a Java GUI-based desktop and web-enabled a
 
 ## 🏆 Marks Rubric Mapping Summary
 
-### **Java GUI-Based Projects Rubric**
+### **Java GUI-Based Projects **
 | Component | Implementation Evidence | 
 |-----------|---------------------------|
 | **OOP Implementation** (Polymorphism, Inheritance, Interfaces, Exception Handling) | Inheritance (Person → Customer / Employee), Polymorphic billing in Residential & Commercial, Billable interface, Custom exceptions | 
@@ -25,7 +25,7 @@ The **Electricity Billing System** is a Java GUI-based desktop and web-enabled a
 
 ---
 
-### **Servlet & Code Quality Rubric**
+### **Servlet & Code Quality **
 | Component | Implementation Evidence | 
 |-----------|--------------------------|
 | **Servlet Implementation** | LoginServlet, CustomerServlet, BillServlet, ReportServlet with GET/POST handling |
