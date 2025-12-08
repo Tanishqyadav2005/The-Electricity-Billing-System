@@ -14,7 +14,7 @@ public class Login extends JFrame implements ActionListener {
 
     Login(){
         super("Login");
-        getContentPane().setBackground(Color.white);//set up the background color 
+        getContentPane().setBackground(Color.white);
         JLabel username = new JLabel("UserName");
         username.setBounds(300,60,100,20);
         add(username);
