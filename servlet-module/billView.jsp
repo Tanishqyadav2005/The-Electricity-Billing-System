@@ -27,7 +27,7 @@
             <div><strong>Total Amount:</strong> $<%= request.getAttribute("amount") %></div>
         </div>
         <div class="upload-link">
-            <a href="uploadImage.jsp">Upload Profile Image</a>
+            <a href="bill?export=txt">Export Bill to TXT</a> | <a href="uploadImage.jsp">Upload Profile Image</a>
         </div>
     </div>
 </body>

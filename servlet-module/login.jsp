@@ -18,15 +18,27 @@
         <% if (request.getAttribute("error") != null) { %>
             <p class="error"><%= request.getAttribute("error") %></p>
         <% } %>
-        <form action="login" method="post">
-            <input type="text" name="username" placeholder="Username" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <select name="userType">
+        <form action="login" method="post" onsubmit="return validateForm()">
+            <input type="text" id="username" name="username" placeholder="Username" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <select id="userType" name="userType">
                 <option value="Admin">Admin</option>
                 <option value="Customer">Customer</option>
             </select>
             <button type="submit">Login</button>
         </form>
+        <script>
+            function validateForm() {
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+                var userType = document.getElementById("userType").value;
+                if (username == "" || password == "" || userType == "") {
+                    alert("All fields must be filled out");
+                    return false;
+                }
+                return true;
+            }
+        </script>
     </div>
 </body>
 </html>

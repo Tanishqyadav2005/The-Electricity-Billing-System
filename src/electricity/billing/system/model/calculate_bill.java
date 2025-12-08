@@ -1,5 +1,6 @@
-package electricity.billing.system;
+package electricity.billing.system.model;
 
+import electricity.billing.system.database.database;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
