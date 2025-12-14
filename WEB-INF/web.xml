@@ -13,4 +13,8 @@
     </servlet-mapping>
 
 </web-app>
+<web-app>
+    <display-name>Electricity Billing System</display-name>
+</web-app>
+
 

@@ -95,4 +95,18 @@ SELECT '=== DEMO LOGIN CREDENTIALS ===' AS Info;
 SELECT 'Admin Login:' AS Type, 'Username: admin' AS Username, 'Password: admin123' AS Password, 'Type: Admin' AS UserType
 UNION ALL
 SELECT 'Customer Login:' AS Type, 'Username: demo' AS Username, 'Password: demo123' AS Password, 'Type: Customer' AS UserType;
+CREATE DATABASE ebs;
+USE ebs;
 
+CREATE TABLE customer (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    units INT
+);
+
+CREATE TABLE bill (
+    bill_id INT AUTO_INCREMENT PRIMARY KEY,
+    units INT,
+    amount DOUBLE,
+    bill_date DATE
+);
