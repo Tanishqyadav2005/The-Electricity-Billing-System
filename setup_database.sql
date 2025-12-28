@@ -16,6 +16,7 @@ DROP TABLE IF EXISTS Signup;
 CREATE TABLE Signup (
     meter_no VARCHAR(50),
     username VARCHAR(50),
+
     name VARCHAR(100),
     password VARCHAR(50),
     usertype VARCHAR(20)
