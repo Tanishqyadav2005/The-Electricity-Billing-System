@@ -115,16 +115,14 @@ HashMap<String, Bill> billHistory;
 ---
 ### 📁 Project Folder Structure
 ```
-ElectricityBillingSystem/
-│── src/
-│   ├── model/
-│   ├── dao/
-│   ├── servlet/# Web Controllers (HttpServlet)
-│   ├── gui/# Swing Desktop Interface (Optional)
-│   └── util/
-│── lib/
-│── database.sql
-│── README.md
+The-Electricity-Billing-System/
+├── src/
+│   ├── main/
+│   │   ├── java/ (Your Servlets and DAO logic)
+│   │   ├── resources/ (Database properties)
+│   │   └── webapp/ (JSPs, CSS, and WEB-INF/web.xml)
+├── pom.xml
+└── README.md
 ```
 ---
 ### 🧪 Requirements
