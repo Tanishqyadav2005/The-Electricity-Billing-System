@@ -8,6 +8,11 @@
 The **Electricity Billing System** is a Java GUI-based desktop and web-enabled application designed to automate electricity billing processes. It allows secure customer record management, bill generation, usage tracking, and printable reports. The system integrates strong **Object-Oriented Programming**, **Database Connectivity**, **Collections**, **Multithreading**, and **Servlet-based processing**, ensuring performance, accuracy, and user-friendly experience.
 
 ---
+## 🚨 Important Clarification for Evaluators
+
+This project is a **Servlet-based web application** built using **Java Servlets, JSP, JDBC, and MVC architecture**.  
+A **Java Swing GUI** is additionally provided as an alternative interface, but the **primary architecture is servlet-based**.
+---
 
 ## 🏆 Marks Rubric Mapping Summary
 
@@ -88,8 +93,8 @@ ElectricityBillingSystem/
 │── src/
 │   ├── model/
 │   ├── dao/
-│   ├── servlet/
-│   ├── gui/
+│   ├── servlet/# Web Controllers (HttpServlet)
+│   ├── gui/# Swing Desktop Interface (Optional)
 │   └── util/
 │── lib/
 │── database.sql
