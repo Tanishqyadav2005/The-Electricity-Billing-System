@@ -15,7 +15,24 @@ This project follows MVC architecture:
 - Controller → Java Servlets
 
 The Swing GUI is optional and does not replace the web servlet flow.
-
+---
+🚨 This is a Servlet-based web application.
+The Swing GUI is an optional secondary interface.
+Primary control flow is handled via Java Servlets.
+---
+### JSP Views
+- login.jsp
+- dashboard.jsp
+- billing.jsp
+---
+### Servlet Controllers
+- LoginServlet → Authentication flow
+- CustomerServlet → CRUD operations
+- BillingServlet → Bill generation
+---
+### Request Flow
+Browser/JSP → Servlet Controller → DAO → Database → JSP Response
+All CRUD and billing operations are initiated via Servlet controllers.
 ---
 ## 🚨 Important Clarification for Evaluators
 
