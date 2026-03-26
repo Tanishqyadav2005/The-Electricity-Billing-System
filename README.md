@@ -25,7 +25,7 @@ Primary control flow is handled via Java Servlets.
 - dashboard.jsp
 - billing.jsp
 ---
-### Servlet Controllers
+### Servlet Controllers..
 - LoginServlet → Authentication flow
 - CustomerServlet → CRUD operations
 - BillingServlet → Bill generation
